@@ -1,22 +1,107 @@
 body {
     background-color: #DCD7D1;
 }
+/* Logotipo e Menu de Navegação */
+.img-logo {
+    width: 250px;
+    height: 100px;
+    justify-content:space-between;
+    display:inline-block; /* visual do link */
+    vertical-align: middle;
+    border-style: none;
+    left: 0px;
+}
 
+.container, #navbarPrincipal, .navbar-nav, .nav-item, .dropdown-toggle, .dropdown-menu, .dropdown-item {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    right: 0%;   
+}
+
+#div-principal {
+    background-color:#B43A75;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#menu-principal a {
+    color: #B6AF78;
+    font-weight: 800;
+    font-size: 20px;
+    justify-content: space-between;
+    left: 0px;
+}
+
+#menu-principal .nav-item a {
+    padding: 32px 10px;
+}
+
+#menu-principal a:hover {
+    color: #DCD7D1;
+}
+
+.navbar-brand {
+    position: absolute;
+}
+
+.nav-item {
+    padding-right: 50px;
+}
+
+.nav-link-right {
+    margin-right: 20px;
+}
+/*------------------------------*/
+
+/* Corpo do Site */
+.conteudo {
+    min-height: calc(100vh - 100px); /* Leva em consideração a altura do cabeçalho e do rodapé */
+    padding-bottom: 100px; /* Leva em consideração a altura do rodapé */
+    overflow: auto; /* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
+}
+
+/*------------------------------*/
+
+/* Footer */
+.rodape {
+    background-color: #B43A75;
+    color: #B6AF78;
+    min-height: 100px;
+    padding: 15px;
+    position: sticky;
+    bottom: 0;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+h5 {
+    color: #B6AF78;
+    text-align: justify;
+    border-style: none;
+    align-content: center;
+}
+
+h6 {
+    color: #ff3946;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    /*font-weight: bold;*/
+    padding: 15px;
+}
+
+
+/*
 .logo {
     display: flex;
     background-color:#B43A75;
 }
 
-.img-logo {
-    width: 250px;
-    height: 100px;
-    justify-content:left;
-    display: inline-block; /* visual do link */
-}
-
 .home, .sobre-nos, .projetos,.mulheres, .pet, .contatos, a {
     color: #B6AF78;
-    display: inline-block; /* visual do link */
+    display: inline-block;
     float: left;
     width: 200px;
     height: 30px;
@@ -25,7 +110,6 @@ body {
     position: relative;
     line-height: 30px;
     text-decoration: none;
-    /*padding: 2px 99px;*/
 }
 
 .home, .sobre-nos, .projetos, .contatos, a:hover { 
@@ -56,27 +140,12 @@ body {
     display: block;
 }
 
-.conteudo {
-    min-height: calc(100vh - 90px); /* Leva em consideração a altura do cabeçalho e do rodapé */
-    padding-bottom: 90px; /* Leva em consideração a altura do rodapé */
-    overflow: auto; /* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
-}
-
-h5 {
-    color: #B6AF78;
-    text-align: left;
-}
-
-h6 {
-    color: #c04983;
-    text-align:center;
-}
-
 .rodape {   
     display:flex;
     background-color:#B43A75;
     position: sticky;
     bottom: 0;
-    width: 100%;
-    height: 90px; /* Define a altura do rodapé */
-}
+    width: 100%;*/
+    /*height: 90px; /* Define a altura do rodapé */
+/*}
+*/

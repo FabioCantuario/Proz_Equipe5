@@ -18,3 +18,9 @@ p {
     text-align: justify;
     font-style: normal;
 }
+
+.img-banner-visao, .img-banner-missao {
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+}
