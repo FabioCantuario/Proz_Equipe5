@@ -1,7 +1,8 @@
 /* Logotipo e Menu de Navegação */
 .img-logo {
     width: 250px;
-    height: 100px;
+    height: 90px;
+    margin-left: 20px;
     justify-content:space-between;
     display:inline-block; /* visual do link */
     vertical-align: middle;
@@ -36,7 +37,7 @@
 }
 
 #menu-principal a:hover {
-    color: #DCD7D1;
+    color: #ffffff;
 }
 
 .navbar-brand {
