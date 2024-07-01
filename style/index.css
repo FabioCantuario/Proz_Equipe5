@@ -10,7 +10,7 @@ body {
     width: 100%;
 }
 
-h2 {
+.frase-slogan {
     margin-top: 220px;
     text-align: center;
 }
@@ -25,4 +25,9 @@ h2 {
 input {
     width: 200px;
     border-radius: 8px;
+}
+
+.dropdown-menu {
+    width: 200px;
+    margin: 0 auto;
 }
