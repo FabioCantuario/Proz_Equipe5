@@ -1,6 +1,15 @@
 body {
-    background-color: #DCD7D1;
+    background-color: #ffffff;
     
+}
+
+.dropdown-menu {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.conteudo {
+    margin-bottom: -55px;
 }
 
 .image-container {
@@ -20,6 +29,12 @@ body {
 .frase-container {
     margin-top: 30px;
     text-align: center;
+    color: #394A20;
+    font-size: 18px;
+}
+
+.frase-slogan {
+    font-size: 25px;
 }
 
 .botao {
@@ -35,7 +50,15 @@ body {
     border: 1px solid #ccc;;
 }
 
-.dropdown-menu {
-    width: 200px;
-    margin: 0 auto;
+.texto-apresentacao {
+    background-color: #B6AF75;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: justify;
+}
+
+.texto-apresentacao p {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
