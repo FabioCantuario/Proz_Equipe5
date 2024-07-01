@@ -74,10 +74,16 @@
     justify-content:space-between;
 }*/
 
-.content-grids{
+.logo img {
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.content-grids {
     background-color: #B43A75;
     width:auto;
-    margin:auto;
+    margin-top: 1000px;
     display:flex;
 }
 .content-grids .colUm{
@@ -123,7 +129,7 @@ h5 {
 }
 
 h6 {
-    color: #ff3946;
+    color: #B43A75;
     /*text-transform: uppercase;*/
     text-align: center;
     /*font-weight: bold;*/

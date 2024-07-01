@@ -3,28 +3,36 @@ body {
     
 }
 
-.img-topo-home {
-    display: block;
-    margin: -200px auto;
-    padding: -110px;
-    width: 100%;
+.image-container {
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.frase-slogan {
-    margin-top: 220px;
+.img-topo-home {
+    max-width: 100%;
+    height: auto;
+    min-width: 50%;
+
+}
+
+.frase-container {
+    margin-top: 30px;
     text-align: center;
 }
 
-.input {
+.botao {
+    padding: 10px 120px;
+    font-size: 16px;
     align-items: center;
     align-content: center;
-    margin-left: 600px;
     margin-top: 20px;
-}
-
-input {
-    width: 200px;
-    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #394A20;
+    border-radius: 10px;
+    border: 1px solid #ccc;;
 }
 
 .dropdown-menu {
