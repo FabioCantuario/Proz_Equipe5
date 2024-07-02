@@ -2,14 +2,28 @@ body {
     background-color: #DCD7D1;
 }
 
+.img-container {
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-sobre {
     padding-top: 1%;
     display: block;
-    margin: 0px auto;
+    max-width: 100%;
 }
 
-h1 {
+
+h1, h2 {
     color: #B43A75;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.div-nossosvalores h3 {
+    color: #394A20;
     text-align: justify;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -23,4 +37,23 @@ p {
     display: block;
     margin: 0px auto;
     padding: 10px;
+}
+
+.div-membrosequipe {
+    margin-top: 30px;
+    margin-bottom: -10px;
+    justify-content: center; 
+    display: flex;
+    gap: 95px;
+}
+
+.div-membrosequipe img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.div-membrosequipe h3 {
+    color: #394A20;
+    text-align: center;
+    font-size: 20px;
 }
