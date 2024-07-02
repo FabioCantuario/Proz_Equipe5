@@ -13,16 +13,19 @@ h1 {
   /*  position: absolute;*/
 
     width: 600px;
-    height: 600px;
-    top:95%;
-    right: 20%;
+    height: 575px;
+    /*top:95%;
+    right: 20%;*/
     
-    transform: translate(-50%,-50%);
+    /*transform: translate(-50%,-50%);*/
     
-    padding-top: 60px;
-    padding-bottom: 40px;
-    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    padding-left: 50px;
 
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 300px;
 
     border-radius: 15px;
     
@@ -34,19 +37,23 @@ h1 {
 
 .btn-enviar {
     display: flexbox;
-    
-   /* position: absolute;*/
+
     width: 600px;
     height: 1px;
-    top:165%;
-    right: 20%;
     
-    transform: translate(-50%,-50%);
+   /* transform: translate(-50%,-50%);*/
     
-    padding-top: 60px;
-    padding-bottom: 250px;
     border-radius: 15px;
-    text-align: left;
+    text-align: center;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+
 }
 
 input{

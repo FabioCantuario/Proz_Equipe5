@@ -65,8 +65,8 @@
 /* Corpo do Site */
 .conteudo {
     
-    min-height: calc(100vh - 100px); /* Leva em consideração a altura do cabeçalho e do rodapé */
-    padding-bottom: 100px; /* Leva em consideração a altura do rodapé */
+    min-height: calc(100vh - 80px); /* Leva em consideração a altura do cabeçalho e do rodapé */
+    padding-bottom: 80px; /* Leva em consideração a altura do rodapé */
     overflow: auto; /* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
 }
 
