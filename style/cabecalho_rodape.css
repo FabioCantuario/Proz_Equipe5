@@ -1,8 +1,9 @@
 /* Logotipo e Menu de Navegação */
 .img-logo {
     width: 250px;
-    height: 90px;
-    margin-left: 20px;
+    height: 87px;
+    margin-left: 50px;
+    margin-top: -20px;
     justify-content:space-between;
     display:inline-block; /* visual do link */
     vertical-align: middle;
@@ -75,7 +76,7 @@
 /* Footer */
 
 .logo img {
-    width: 80%;
+    width: 90%;
     margin-left: 50px;
     margin-top: 150px;
 }
