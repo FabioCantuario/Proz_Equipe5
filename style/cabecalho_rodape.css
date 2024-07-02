@@ -89,21 +89,25 @@
     flex:1;
 }
 .content-grids .colDois, h3, a{
+    margin-top: 5px;
     flex:1;
     text-align: left;
     display: block;
     color: #DCD7D1;
 }
 .content-grids .colTres{
+    margin-top: 5px;
     flex:1;
 }
 .content-grids .colQuatro{
+    margin-top: 5px;
     flex:1;
     background:#B43A75;
     color: #DCD7D1;
 }
 
 .content-grids .colCinco{
+    margin-top: 5px;
     flex:1;
 }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: #ffffff;
     
@@ -35,6 +37,10 @@ body {
 
 .frase-slogan {
     font-size: 25px;
+}
+
+.negrito-verde {
+    color: #394A20;
 }
 
 .botao {
