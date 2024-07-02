@@ -10,12 +10,21 @@
     left: 0px;
 }
 
-.container, #navbarPrincipal, .navbar-nav, .nav-item, .dropdown-toggle, .dropdown-menu, .dropdown-item {
-    align-items: center;
+.container, #navbarPrincipal, .navbar-nav, .nav-item {
+    align-items:center;
     text-align: center;
-    position: relative;
+   /* position: relative; - arruma o menu
     left: 10%;
-    right: 0%;   
+    right: 0%;   */
+    
+    position: relative;
+    padding-left: 70px;
+    left: 0%;
+    right: 0%;
+}
+
+.dropdown-toggle, .dropdown-menu, .dropdown-item {
+    text-align: center;
 }
 
 #div-principal {
@@ -55,6 +64,7 @@
 
 /* Corpo do Site */
 .conteudo {
+    
     min-height: calc(100vh - 100px); /* Leva em consideração a altura do cabeçalho e do rodapé */
     padding-bottom: 100px; /* Leva em consideração a altura do rodapé */
     overflow: auto; /* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
@@ -63,16 +73,6 @@
 /*------------------------------*/
 
 /* Footer */
-
-/*.rodape {
-    min-height: 10px;
-    padding: 10px;
-    position: sticky;
-    bottom: 0;
-    display:flex;
-    align-items: center;
-    justify-content:space-between;
-}*/
 
 .logo img {
     width: 80%;
@@ -121,8 +121,6 @@
     width: 10%;
     height: 10%;
 }
-
-/*------*/
 
 h5 {
     color: #B6AF78;
