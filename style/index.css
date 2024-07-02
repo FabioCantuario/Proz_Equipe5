@@ -92,6 +92,12 @@ body {
     background-color: #FFE3E3;
     text-align: center;
     color: #394A20;
+    transition: all 0.5s ease;
+}
+
+.projetoUm:hover, .projetoDois:hover, .projetoTres:hover, .projetoQuatro:hover {
+    transform: scale(1.1);
+    
 }
 
 .projetoUm, .projetoDois, .projetoTres, .projetoQuatro p {
