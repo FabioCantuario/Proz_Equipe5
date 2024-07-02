@@ -69,8 +69,6 @@ body {
     margin-right: 50px;
 }
 
-
-/* Estilo geral para os containers de projetos */
 .resumo-projetos {
     align-items: center;
     padding: 20px;
@@ -82,12 +80,40 @@ body {
 .linhaUm-projetos, .linhaDois-projetos {
     display: flex;
     justify-content: space-between;
-    gap: 15px; /* Espaçamento entre os projetos na mesma linha */
+    gap: 15px;
+}
+
+.link-div {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+}
+
+.link-div:hover .projetoUm, .link-div:hover .projetoDois, .link-div:hover .projetoTres, .link-div:hover .projetoQuatro {
+    background-color: #B6AF75;
+    cursor: pointer;
 }
 
 .projetoUm, .projetoDois, .projetoTres, .projetoQuatro {
     flex: 1;
     padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFE3E3;
+    text-align: center;
+    color: #394A20;
+}
+
+.link-div:link, .link-div:visited, .link-div:hover, .link-div:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.projetoUm, .projetoDois, .projetoTres, .projetoQuatro {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #FFE3E3;
     text-align: center;
@@ -99,4 +125,11 @@ body {
     text-align: center;
     color: #394A20;
     font-size: 25px;
+}
+
+/* Faz as imagens dos projetos ficarem redondas*/
+.imagem-projetoUm, .imagem-projetoDois, .imagem-projetoTres, .imagem-projetoQuatro{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
 }
