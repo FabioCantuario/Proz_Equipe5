@@ -32,7 +32,6 @@ body {
     margin-top: 30px;
     text-align: center;
     color: #394A20;
-    font-size: 18px;
 }
 
 .frase-slogan {
@@ -90,6 +89,14 @@ body {
     flex: 1;
     padding: 20px;
     border-radius: 5px;
-    background-color: #FFF5EF;
+    background-color: #FFE3E3;
     text-align: center;
+    color: #394A20;
+}
+
+.texto-chamadaacao h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: #394A20;
+    font-size: 25px;
 }
