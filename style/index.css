@@ -61,10 +61,35 @@ body {
     padding: 10px 20px;
     text-align: center;
     justify-content: justify;
+    padding: 35px 150px;
 }
 
 .texto-apresentacao p {
     font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+
+/* Estilo geral para os containers de projetos */
+.resumo-projetos {
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaçamento entre as linhas de projetos */
+}
+
+.linhaUm-projetos, .linhaDois-projetos {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; /* Espaçamento entre os projetos na mesma linha */
+}
+
+.projetoUm, .projetoDois, .projetoTres, .projetoQuatro {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #FFF5EF;
+    text-align: center;
 }
