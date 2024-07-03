@@ -1,0 +1,139 @@
+/* Logotipo e Menu de Navegação */
+.img-logo {
+    width: 250px;
+    height: 87px;
+    margin-left: 50px;
+    margin-top: -20px;
+    justify-content:space-between;
+    display:inline-block; /* visual do link */
+    vertical-align: middle;
+    border-style: none;
+    left: 0px;
+}
+
+.container, #navbarPrincipal, .navbar-nav, .nav-item {
+    align-items:center;
+    text-align: center;
+   /* position: relative; - arruma o menu
+    left: 10%;
+    right: 0%;   */
+    
+    position: relative;
+    padding-left: 70px;
+    left: 0%;
+    right: 0%;
+}
+
+.dropdown-toggle, .dropdown-menu, .dropdown-item {
+    text-align: center;
+}
+
+#div-principal {
+    background-color:#B43A75;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#menu-principal a {
+    color: #B6AF78;
+    font-weight: 800;
+    font-size: 20px;
+    justify-content: space-between;
+    left: 0px;
+}
+
+#menu-principal .nav-item a {
+    padding: 32px 10px;
+}
+
+#menu-principal a:hover {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    position: absolute;
+}
+
+.nav-item {
+    padding-right: 50px;
+}
+
+.nav-link-right {
+    margin-right: 20px;
+}
+/*------------------------------*/
+
+/* Corpo do Site */
+.conteudo {
+    
+    min-height: calc(100vh - 80px); /* Leva em consideração a altura do cabeçalho e do rodapé */
+    padding-bottom: 80px; /* Leva em consideração a altura do rodapé */
+    overflow: auto; /* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
+}
+
+/*------------------------------*/
+
+/* Footer */
+
+.logo img {
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.content-grids {
+    background-color: #B43A75;
+    width:auto;
+    display:flex;
+}
+.content-grids .colUm{
+    flex:1;
+}
+.content-grids .colDois, h3, a{
+    margin-top: 5px;
+    flex:1;
+    text-align: left;
+    display: block;
+    color: #DCD7D1;
+}
+.content-grids .colTres{
+    margin-top: 5px;
+    flex:1;
+}
+.content-grids .colQuatro{
+    margin-top: 5px;
+    flex:1;
+    background:#B43A75;
+    color: #DCD7D1;
+}
+
+.content-grids .colCinco{
+    margin-top: 5px;
+    flex:1;
+}
+
+.social-icons a {
+    text-align: left;
+    display: block;
+    color: #DCD7D1;
+}
+
+.social-icons img {
+    width: 10%;
+    height: 10%;
+}
+
+h5 {
+    color: #B6AF78;
+    text-align: justify;
+    border-style: none;
+    align-content: center;
+}
+
+h6 {
+    color: #B43A75;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    /*font-weight: bold;*/
+    padding: 15px;
+}

@@ -1,0 +1,89 @@
+body {
+    background-color: #DCD7D1;
+}
+
+h1 {
+    color: #B43A75;
+}
+
+.div-form .div-corpo {
+    background-color: #B6AF75;
+    
+    display: flexbox;
+  /*  position: absolute;*/
+
+    width: 600px;
+    height: 575px;
+    /*top:95%;
+    right: 20%;*/
+    
+    /*transform: translate(-50%,-50%);*/
+    
+    padding-top: 30px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 300px;
+
+    border-radius: 15px;
+    
+    text-align: left;
+    /*#B6AF75; - prata*/
+    /*#394A20; - verde */
+    /*#B43A75; - rosa */
+}
+
+.btn-enviar {
+    display: flexbox;
+
+    width: 600px;
+    height: 1px;
+    
+   /* transform: translate(-50%,-50%);*/
+    
+    border-radius: 15px;
+    text-align: center;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+}
+textarea{
+    border-radius: 15px;
+}
+button{
+    background-color: #394a20;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+}
+button:hover{
+    background-color: hsl(84, 40%, 43%);
+    cursor: pointer;
+    color: #B43A75;
+}
+/*a{
+    color: blue;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 13px;   
+}*/

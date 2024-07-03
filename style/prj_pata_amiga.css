@@ -1,0 +1,82 @@
+body {
+    background-color: #DCD7D1;
+
+}
+
+.img-pet {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+h1 {
+    color: #B43A75;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    font-style: normal;
+}
+
+p strong {
+    color: #B43A75;
+}
+
+#texto {
+    align-content: center;
+}
+
+.parceiro-div {
+    background-color: #394A20;
+}
+
+h2 {
+    color: #DCD7D1;
+    text-align: center;
+    padding: 3%;
+}
+
+/*----*/
+
+.secao4 {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.secao4-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.secao4-div-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3 - 60px);
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+.secao4-div-card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.secao4-div-card img {
+    width: 35%;
+    height: auto;
+}
+
+.secao4-div-card h3 {
+    margin-bottom: 0px;
+}

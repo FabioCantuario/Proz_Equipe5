@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #ffffff;
+    
+}
+
+.dropdown-menu {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.conteudo {
+    margin-bottom: -55px;
+}
+
+.image-container {
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-topo-home {
+    max-width: 100%;
+    height: auto;
+    min-width: 50%;
+
+}
+
+.frase-container {
+    margin-top: 30px;
+    text-align: center;
+    color: #394A20;
+}
+
+.frase-slogan {
+    font-size: 25px;
+}
+
+.negrito-verde {
+    color: #394A20;
+}
+
+.botao {
+    padding: 10px 120px;
+    font-size: 16px;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #394A20;
+    border-radius: 10px;
+    border: 1px solid #ccc;;
+}
+
+.texto-apresentacao {
+    background-color: #B6AF75;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: justify;
+    padding: 35px 150px;
+}
+
+.texto-apresentacao p {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.resumo-projetos {
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaçamento entre as linhas de projetos */
+}
+
+.linhaUm-projetos, .linhaDois-projetos {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 1000px;
+}
+
+.projetoUm, .projetoDois, .projetoTres, .projetoQuatro {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFE3E3;
+    text-align: center;
+    color: #394A20;
+}
+
+.projetoUm, .projetoDois, .projetoTres, .projetoQuatro p {
+    font-size: 18px;
+}
+
+/* Configurando o link dos projetos*/
+.link-div {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+}
+
+.link-div:link, .link-div:visited, .link-div:hover, .link-div:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link-div:hover .projetoUm, .link-div:hover .projetoDois, .link-div:hover .projetoTres, .link-div:hover .projetoQuatro {
+    background-color: #B6AF75;
+    cursor: pointer;
+}
+
+/* Configurando texto da chamada de ação após apresentação dos projetos*/
+.texto-chamadaacao h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: #394A20;
+    font-size: 25px;
+}
+
+.texto-chamadaacao h2 a {
+    display: inline;
+    text-decoration: underline;
+    color: #B43A75;
+}
+
+/* Faz as imagens dos projetos ficarem redondas*/
+.imagem-projetoUm, .imagem-projetoDois, .imagem-projetoTres, .imagem-projetoQuatro{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
