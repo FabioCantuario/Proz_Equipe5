@@ -45,8 +45,12 @@ p {
     font-style: normal;
 }
 
-p strong {
+.texto p strong {
     color: #B43A75;
+}
+
+p strong {
+    color: white;
 }
 
 #texto {
