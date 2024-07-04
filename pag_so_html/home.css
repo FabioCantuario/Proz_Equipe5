@@ -1,0 +1,60 @@
+:root{
+    --cor-fundo: rgb(206, 171, 171);
+    --cor-hover: green;
+    --cor-primaria: black;
+}
+
+.menu ul{
+    background-color:var(--cor-fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.4rem/*24px*/;
+    list-style: none;    
+}
+
+.menu ul li{
+    display: inline;
+    position: relative;
+}
+
+
+.menu ul li a {
+    color: var(--cor-primaria);
+    display: flex;
+    list-style: none;
+    gap: 60px;/*60rem*/
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: var(--cor-hover);
+    display: flex;
+    list-style: none;
+    gap: 60px;/*60rem*/
+    align-items: center;
+    text-decoration: none;
+}
+
+/*--- Sub Menu ---*/
+.menu ul ul {
+    display: none;
+    position: absolute;
+}
+
+.menu ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+
+.menu ul ul {
+    width: 150px;
+}
+
+.menu ul ul li a {
+    display: block;
+}
+
+/*-----------------*/
+
