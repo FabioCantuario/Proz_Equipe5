@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instituto Recomeçar</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
     <link rel="stylesheet" href="./style/cabecalho_rodape.css">
     <link rel="stylesheet" href="./style/contato.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -45,10 +50,14 @@
             </nav>
         </div>
     </header>
+    
     <main>
         <div class="conteudo">
+            <div class="image-container">
+                <img id="img-topo" class="img-topo-contato" src="./img/banner/contato.png" alt="imagem da página contato">
+            </div>
             <div class="titulo">
-                <h1>Contato</h1>
+                <h1>Fale Conosco</h1>
                 <p>Para dúvidas sobre nosso instituto ou se deseja colaborar em algum de nossos projetos,preencha o formulário abaixo que retornaremos o mais rápido possível.</p>
             </div>
             <div class="div-form">
@@ -68,16 +77,16 @@
                         <br><br>
                         <label for="mensagem">Mensagem:</label>
                         <br>
-                        <textarea cols="65" rows="5" name="mensagem" id="mensagem" placeholder="Digite sua mensagem..."></textarea>
+                        <textarea cols="53" rows="5" name="mensagem" id="mensagem" placeholder="  Digite sua mensagem..."></textarea>
                         <br><br>
                     </div>
-                    <div class="btn-enviar">
-                        <button type="submit">ENVIAR MENSAGEM</button>
+                    <div class="div-btn">
+                        <button class="btn-enviar" type="submit">ENVIAR MENSAGEM</button>
                     </div>
                 </form>
             </div>
-            <div>
-                <p>mensagemSe preferir, você pode entrar em contato conosco também pelo telefone <strong>0800-100-4510</strong> apenas em dias úteis no período das 8h00 às 17h00 (Horário de Brasília).</p>
+            <div class="info">
+                <p>Se preferir, você pode entrar em contato conosco também pelo telefone <strong>0800-100-4510</strong> apenas em dias úteis no período das 8h00 às 17h00 (Horário de Brasília).</p>
             </div>
         </div>
     </main>

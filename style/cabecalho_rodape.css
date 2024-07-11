@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    left: 0;
+}
 /* Logotipo e Menu de Navegação */
 .img-logo {
     width: 250px;
@@ -37,7 +41,7 @@
 #menu-principal a {
     color: #B6AF78;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 19px;
     justify-content: space-between;
     left: 0px;
 }
