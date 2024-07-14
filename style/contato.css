@@ -10,6 +10,7 @@
 
 .conteudo {
     margin-bottom: -55px;
+    background-color: #DCD7D1;
 }
 
 .image-container {
@@ -24,13 +25,14 @@
 .img-topo-contato {
     height: 390px;
     width: 1360px;
-    min-width: 50%;
+    min-width: 100%;
+    max-width: 100%;
     object-fit: fill;   
 }
-
+/*
 body {
     background-color: #DCD7D1;
-}
+}*/
 
 .titulo {
     display: flexbox;
@@ -55,8 +57,9 @@ h1 {
 .div-form {
     background-color: #B6AF75;
     display: flex;
-    align-content: center;
     justify-content: center;
+    align-content: center;
+
     width: 600px;
     height: 550px;
     padding-top: 30px;
@@ -127,4 +130,8 @@ textarea{
     background-color: hsl(84, 40%, 43%);
     cursor: pointer;
     color: #3ab4ae;
+}
+
+.copyright {
+    background-color: #DCD7D1;
 }
