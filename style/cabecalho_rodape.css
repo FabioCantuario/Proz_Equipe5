@@ -81,6 +81,11 @@
     width:auto;
     display:flex;
 }
+
+.content-grids h3 {
+    color: #DCD7D1;
+}
+
 .content-grids .colUm{
     flex:1;
 }
