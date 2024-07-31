@@ -17,7 +17,8 @@
     align-items:center;
     text-align: center;
     position: relative;
-    padding-left: 70px;
+    padding-left: 50px;
+    /*padding-left: 70px;*/
 }
 
 .dropdown-toggle, .dropdown-menu, .dropdown-item {
