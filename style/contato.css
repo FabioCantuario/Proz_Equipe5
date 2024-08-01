@@ -2,10 +2,9 @@
 /*#394A20; - verde */
 /*#B43A75; - rosa */
 * {
-    font-family: "Montserrat", sans-serif;
+    /*font-family: "Montserrat", sans-serif;*/
+    font-family: "Poetsen One", sans-serif;
     font-optical-sizing: auto;
-    /*font-weight: <weight>;
-    font-style: normal;*/
 }
 
 .conteudo {
@@ -13,47 +12,60 @@
     background-color: #DCD7D1;
 }
 
-.image-container {
+.img-container {
+    margin-top: -15px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    margin-top: 0px;
-    height: auto;
-    width: auto;
 }
 
 .img-topo-contato {
-    height: 390px;
-    width: 1360px;
-    min-width: 100%;
+    padding-top: 1%;
+    display: block;
     max-width: 100%;
-    object-fit: fill;   
-}
-/*
-body {
-    background-color: #DCD7D1;
-}*/
-
-.titulo {
-    display: flexbox;
-    align-content: center;
-    justify-content: center;
-    text-align: left;
-    width: 900px;
-    height: auto;    
-    padding-top: 30px;
-    padding-bottom: 1px;
-    padding-left: 50px;
-    margin-top: 10px;
-    margin-left: 150px;
-    margin-right: 100px;
 }
 
-h1 {
+/* Configuração do Estilo das Letras h1, h2, h3, p */
+.titulo h1 {
     color: #B43A75;
-    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    /*font-family: "Poetsen One", sans-serif;*/
+    font-size: 60px;
+    padding: 10px;
+    margin: 40px;
 }
 
+.titulo p {
+    color: #394A20;
+    /*font-family: "Poetsen One", sans-serif;*/
+    font-style: normal;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.info p {
+    color: #394A20;
+    /*font-family: "Poetsen One", sans-serif;*/
+    font-style: normal;
+    font-size: 18px;
+    margin: 40px;
+}
+
+.info strong {
+    color:  #B43A75;
+    /*font-family: "Poetsen One", sans-serif;*/
+    font-style: normal;
+    font-size: 20px; 
+}
+
+.info i {
+    color:  #B43A75;
+    /*font-family: "Poetsen One", sans-serif;*/
+    font-style: normal;
+    font-size: 18px; 
+}
+
+/* Configuração Formulário */
 .div-form {
     background-color: #B6AF75;
     display: flex;

@@ -1,3 +1,9 @@
+* {
+    /*font-family: "Montserrat", sans-serif;*/
+    font-family: "Poetsen One", sans-serif;
+    font-optical-sizing: auto;
+}
+
 body {
     background-color: #DCD7D1;
 }
