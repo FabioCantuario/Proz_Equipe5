@@ -18,7 +18,7 @@ body {
 }
 
 /* Configuração do Estilo das Letras h1, h2, h3, p */
-.div-nossos_valores h1 {
+.nossos_valores h1 {
     color: #B43A75;
     text-align: justify;
     font-family: "Poetsen One", sans-serif;
@@ -27,7 +27,7 @@ body {
     margin: 40px;
 }
 
-.div-nossa_equipe h2 {
+.nossa_equipe h2 {
     color: #B43A75;
     text-align: justify;
     font-family: "Poetsen One", sans-serif;
@@ -36,7 +36,7 @@ body {
     margin: 40px;
 }
 
-.div-nossa_historia h2 {
+.nossa_historia h2 {
     color: #B43A75;
     text-align: justify;
     font-family: "Poetsen One", sans-serif;
@@ -49,13 +49,13 @@ body {
     align-content: center;
   }
 
-.div-nossos_valores h3 {
+.nossos_valores h3 {
     color: #394A20;
     text-align: justify;
     font-family: "Poetsen One", sans-serif;
 }
 
-.div-nossos_valores p {
+.nossos_valores p {
     color: #394A20;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
@@ -63,7 +63,7 @@ body {
     margin: 40px;
 }
 
-.div-nossa_historia p {
+.nossa_historia p {
     color: #394A20;
     text-align: justify;
     font-family: "Poetsen One", sans-serif;
@@ -72,7 +72,7 @@ body {
     margin: 40px;
 }
 
-.div-nossa_equipe p {
+.nossa_equipe p {
     text-align: justify;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
@@ -82,7 +82,7 @@ body {
 }
 
 /* Configuração do formato das imagens da Equipe */
-.div-membrosequipe {
+.membrosequipe {
     margin-top: 30px;
     margin-bottom: -10px;
     justify-content: center; 
@@ -90,24 +90,25 @@ body {
     gap: 95px;
 }
 
-.div-membrosequipe img{
+.membrosequipe img{
     width: 150px;
     border-radius: 50%;
     border: 5px solid #B43A75;
     box-shadow: 2px;
 }
 
-.div-membrosequipe h3 {
-    color: #394A20;
+.membrosequipe h3 {
+    /*color: #394A20;*/
+    color: #B43A75;
     font-family: "Poetsen One", sans-serif;
     text-align: center;
     font-size: 20px;
 }
 
-.div-membrosequipe img:hover {
+.membrosequipe img:hover {
     transform: scale(1.1);
     z-index: 1;
-    border: 5px solid #394A20;;
+    border: 5px solid #394A20;
     box-shadow: 2px;
 }
 
