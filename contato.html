@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+CO:wght@100..400&family=Poetsen+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/cabecalho_rodape.css">
     <link rel="stylesheet" href="./style/contato.css">
+    <script src="./script/contato.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -59,22 +60,22 @@
             <article class="div-form">
                 <form action="" method="post">
                     <div class="div-corpo">
-                        <label for="assunto">Assunto:</label>
-                        <br>
+                        <label for="assunto">*Assunto:</label>
                         <input type="text" name="assunto" id="assunto" placeholder="Digite o assunto">
-                        <br><br>
-                        <label for="nome">Nome:</label>
-                        <br>
+                        <p id="assunto-helper" class="helper-text">Mensagem de ajuda</p>
+                        
+                        <label for="nome">*Nome:</label>
                         <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
-                        <br><br>
-                        <label for="mail">E-mail:</label>
-                        <br>
-                        <input type="email" name="mail" id="mail" placeholder="Digite seu e-mail">
-                        <br><br>
-                        <label for="mensagem">Mensagem:</label>
-                        <br>
+                        <p id="name-helper" class="helper-text">Mensagem de ajuda</p>
+                        
+                        <label for="email">*E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                        <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+                        
+                        <label for="mensagem">*Mensagem:</label>
                         <textarea cols="53" rows="5" name="mensagem" id="mensagem" placeholder="  Digite sua mensagem..."></textarea>
-                        <br><br>
+                        <p id="mensagem-helper" class="helper-text">Mensagem de ajuda</p>
+                        
                     </div>
                     <div class="div-btn">
                         <button class="btn-enviar" type="submit">ENVIAR MENSAGEM</button>

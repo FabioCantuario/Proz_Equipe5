@@ -1,6 +1,7 @@
 /*#B6AF75; - prata*/
 /*#394A20; - verde */
 /*#B43A75; - rosa */
+
 * {
     /*font-family: "Montserrat", sans-serif;*/
     font-family: "Poetsen One", sans-serif;
@@ -24,6 +25,7 @@
     display: block;
     max-width: 100%;
 }
+
 
 /* Configuração do Estilo das Letras h1, h2, h3, p */
 .titulo h1 {
@@ -66,7 +68,7 @@
 }
 
 /* Configuração Formulário */
-.div-form {
+    .div-form {
     background-color: #B6AF75;
     display: flex;
     justify-content: center;
@@ -95,27 +97,17 @@
     border-radius: 15px;
 }
 
-.info {
-    display: flexbox;
-    align-content: center;
-    text-align: center;
-    width: 900px;
-    padding-bottom: 1px;
-    padding-left: 50px;
-    margin-top: 100px;
-    margin-left: 150px;
-    margin-right: 100px;
-}
-
 input{
     width: 500px;
     height: 50px;
-    padding: 15px;
+    /*padding: 15px;*/
+    padding: .2rem .5rem;
     border: none;
     outline: none;
     font-size: 15px;
     border-radius: 15px;
 }
+
 textarea{
     border-radius: 15px;
 }
@@ -143,6 +135,79 @@ textarea{
     cursor: pointer;
     color: #3ab4ae;
 }
+
+
+/*---------------------------*/
+
+label {
+    margin-bottom: .2rem;
+    position: relative;
+}
+
+label:not(:first-of-type){
+    margin-top: 1rem;
+}
+
+.helper-text {
+    display: none;
+    font-size: .8rem;
+    color: darkred;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    align-self: center;
+}
+
+/* ---------- Estilos dinâmicos ---------- */
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #B6AF75;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #394A20;
+}
+
+input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+}
+
+input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+}
+
+.visible {
+    display: block;
+}
+
+
+/*-----------------------------*/
+
+.info {
+    display: flexbox;
+    align-content: center;
+    text-align: center;
+    width: 900px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+
 
 .copyright {
     background-color: #DCD7D1;
