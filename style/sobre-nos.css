@@ -18,9 +18,14 @@ body {
 }
 
 .img-sobre {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    /*
     padding-top: 1%;
     display: block;
     max-width: 100%;
+    */
 }
 
 /* Configuração do Estilo das Letras h1, h2, h3, p */

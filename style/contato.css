@@ -21,9 +21,12 @@
 }
 
 .img-topo-contato {
-    padding-top: 1%;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+   /* padding-top: 1%;
     display: block;
-    max-width: 100%;
+    max-width: 100%;*/
 }
 
 
@@ -110,6 +113,12 @@ input{
 
 textarea{
     border-radius: 15px;
+    width: 500px;
+    height: 150px;
+    padding: .2rem .5rem;
+    border: none;
+    outline: none;
+    font-size: 15px;
 }
 
 .div-btn {
@@ -183,6 +192,18 @@ input.error {
 }
 
 input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+}
+
+textarea.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+}
+
+textarea.correct {
     background-color: #BBCCBB;
     border: solid 2px #206620;
     color: #206620;
