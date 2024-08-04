@@ -2,6 +2,11 @@
     margin: 0;
     left: 0;
 }
+
+header {
+    margin: 0px;
+    padding: 0px;
+}
 /* Logotipo e Menu de Navegação */
 .img-logo {
     width: 250px;
