@@ -1,4 +1,14 @@
+/*#B6AF75; - prata*/
+/*#394A20; - verde */
+/*#B43A75; - rosa */
+
 /* ajustar texto da página semelhante ao layout*/
+* {
+    /*font-family: "Montserrat", sans-serif;*/
+    font-family: "Poetsen One", sans-serif;
+    font-optical-sizing: auto;
+}
+
 body {
     background-color: #DCD7D1;
     margin: 0px; 
@@ -38,6 +48,10 @@ h1, h2 {
     text-align: justify;
     font-family:"Poetsen One", sans-serif;
     padding: 10px;
+}
+
+.texto p {
+    color: #394A20;
 }
 
 /*-----*/
