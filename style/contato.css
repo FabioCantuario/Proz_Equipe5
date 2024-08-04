@@ -71,34 +71,52 @@
 }
 
 /* Configuração Formulário */
-    .div-form {
-    background-color: #B6AF75;
+.div-form {
+    height: 100vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #B6AF75;*/
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 550px;
+    background-color: #B6AF75;
+    border-radius: 16px;
+    padding: 1.5rem 40px;
+  }
+/* ------------------------*/
+/*    .div-form {
+    background-color: #B6AF75;
+    display: flexbox;
     justify-content: center;
     align-content: center;
 
     width: 600px;
     height: 550px;
     padding-top: 30px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 350px;
     margin-right: 300px;
     border-radius: 15px;
-}
+}*/
 
-.div-corpo {
+/*.div-corpo {
     text-align: left;  
-    display: flexbox;
+    display:block;
     align-items: center;
     padding-left: 100px;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-top: 5px;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
     margin-left: 200px;
     margin-right: 300px;
     border-radius: 15px;
-}
+}*/
 
 input{
     width: 500px;
@@ -121,11 +139,12 @@ textarea{
     font-size: 15px;
 }
 
-.div-btn {
+/*.div-btn {
     display: flex;
     align-content: center;
-    justify-content:center;   
-}
+    justify-content:center; 
+    margin-top: 0px;  
+}*/
 
 .btn-enviar {
     background-color: #394a20;
@@ -134,9 +153,15 @@ textarea{
     height: 60px;
     border: none;
     border-radius: 10px;
-    padding-top: 0px;
+    /*padding-top: 0px;*/
     padding-bottom: 0px;
-    margin-top: 20px;
+    margin-top: 0px;
+
+    /*width: 100px;
+    height: 40px;*/
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    align-self: center;
 }
 
 .btn-enviar:hover{
@@ -154,7 +179,7 @@ label {
 }
 
 label:not(:first-of-type){
-    margin-top: 1rem;
+    margin-top: .1rem;
 }
 
 .helper-text {
@@ -163,13 +188,13 @@ label:not(:first-of-type){
     color: darkred;
 }
 
-button {
+/*button {
     width: 100px;
     height: 40px;
     margin-top: 1.5rem;
     font-size: 1rem;
     align-self: center;
-}
+}*/
 
 /* ---------- Estilos dinâmicos ---------- */
 .required-popup::after {
