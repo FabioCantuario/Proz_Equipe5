@@ -8,7 +8,7 @@ body {
 
 .image-container {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin-top: 0px;
     height: auto;
@@ -45,11 +45,11 @@ p {
     font-size: 20px;
     margin: 40px;
     width: 1800px;
-  }
+}
 
-  .image-ods {
+.image-ods {
     display: flex;
     justify-content: center;
     margin: 20px;
     gap: 30px;
-  }
+}
