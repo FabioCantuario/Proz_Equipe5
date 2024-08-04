@@ -2,7 +2,6 @@
 
 body {
     background-color: #ffffff;
-    
 }
 
 .dropdown-menu {
@@ -10,7 +9,7 @@ body {
     margin: 0 auto;
 }
 
-.conteudo {
+.container-slogan {
     margin-bottom: -55px;
 }
 
@@ -22,14 +21,16 @@ body {
 }
 
 .img-topo-home {
+    margin-bottom: -60px;
     max-width: 100%;
     height: auto;
     min-width: 50%;
-
+    padding-top: 1%;
+    display: block;
 }
 
 .frase-container {
-    margin-top: 30px;
+    padding: 90px;
     text-align: center;
     color: #394A20;
 }
@@ -57,7 +58,6 @@ body {
 
 .texto-apresentacao {
     background-color: #B6AF75;
-    padding: 10px 20px;
     text-align: center;
     justify-content: justify;
     padding: 35px 150px;
@@ -74,7 +74,7 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Espaçamento entre as linhas de projetos */
+    gap: 20px 10px; /* Espaçamento entre as linhas de projetos */
 }
 
 .linhaUm-projetos, .linhaDois-projetos {
@@ -96,7 +96,7 @@ body {
 }
 
 .projetoUm:hover, .projetoDois:hover, .projetoTres:hover, .projetoQuatro:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
     
 }
 
