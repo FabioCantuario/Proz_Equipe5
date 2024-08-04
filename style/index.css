@@ -30,12 +30,10 @@ body {
 }
 
 .img-topo-home {
-    margin-top: 0px;
     width: 100%;
-    height: auto;
+    margin-top: 0px;
     margin-bottom: -60px;
     max-width: 100%;
-    height: auto;
     min-width: 50%;
     padding-top: 1%;
     display: block;
@@ -79,6 +77,7 @@ body {
     justify-content: justify;
     align-content: center;
     height: 150px;
+    display: block;
 }
 
 .texto-apresentacao p {

@@ -1,5 +1,5 @@
 body {
-    background-color: #DCD7D1;
+    background-color: #ffffff;
 }
 
 .conteudo {
@@ -7,19 +7,18 @@ body {
 }
 
 .image-container {
-    display: flex;
-    justify-content:center;
-    align-items: center;
     margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: auto;
     width: auto;
 }
 
 .img-topo-tech {
-    /*max-width: 100;*/
-    height: 390px;
-    width: 1360px;
-    /*width: auto;*/
+    max-width: 100%;
     min-width: 50%;
+    width: 100%;
+    height: 100%;
     object-fit: fill;   
 }
