@@ -1,11 +1,11 @@
 /*#B6AF75; - prata*/
 /*#394A20; - verde */
 /*#B43A75; - rosa */
+
 * {
-    font-family: "Montserrat", sans-serif;
+    /*font-family: "Montserrat", sans-serif;*/
+    font-family: "Poetsen One", sans-serif;
     font-optical-sizing: auto;
-    /*font-weight: <weight>;
-    font-style: normal;*/
 }
 
 .conteudo {
@@ -13,48 +13,65 @@
     background-color: #DCD7D1;
 }
 
-.image-container {
+.img-container {
+    margin-top: -15px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    margin-top: 0px;
-    height: auto;
-    width: auto;
 }
 
 .img-topo-contato {
-    height: 390px;
-    width: 1360px;
-    min-width: 100%;
-    max-width: 100%;
-    object-fit: fill;   
-}
-/*
-body {
-    background-color: #DCD7D1;
-}*/
-
-.titulo {
-    display: flexbox;
-    align-content: center;
-    justify-content: center;
-    text-align: left;
-    width: 900px;
-    height: auto;    
-    padding-top: 30px;
-    padding-bottom: 1px;
-    padding-left: 50px;
-    margin-top: 10px;
-    margin-left: 150px;
-    margin-right: 100px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+   /* padding-top: 1%;
+    display: block;
+    max-width: 100%;*/
 }
 
-h1 {
+
+/* Configuração do Estilo das Letras h1, h2, h3, p */
+.titulo h1 {
     color: #B43A75;
-    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    /*font-family: "Poetsen One", sans-serif;*/
+    font-size: 60px;
+    padding: 10px;
+    margin: 40px;
 }
 
-.div-form {
+.titulo p {
+    color: #394A20;
+    /*font-family: "Poetsen One", sans-serif;*/
+    font-style: normal;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.info p {
+    color: #394A20;
+    /*font-family: "Poetsen One", sans-serif;*/
+    font-style: normal;
+    font-size: 18px;
+    margin: 40px;
+}
+
+.info strong {
+    color:  #B43A75;
+    /*font-family: "Poetsen One", sans-serif;*/
+    font-style: normal;
+    font-size: 20px; 
+}
+
+.info i {
+    color:  #B43A75;
+    /*font-family: "Poetsen One", sans-serif;*/
+    font-style: normal;
+    font-size: 18px; 
+}
+
+/* Configuração Formulário */
+    .div-form {
     background-color: #B6AF75;
     display: flex;
     justify-content: center;
@@ -83,29 +100,25 @@ h1 {
     border-radius: 15px;
 }
 
-.info {
-    display: flexbox;
-    align-content: center;
-    text-align: center;
-    width: 900px;
-    padding-bottom: 1px;
-    padding-left: 50px;
-    margin-top: 100px;
-    margin-left: 150px;
-    margin-right: 100px;
-}
-
 input{
     width: 500px;
     height: 50px;
-    padding: 15px;
+    /*padding: 15px;*/
+    padding: .2rem .5rem;
     border: none;
     outline: none;
     font-size: 15px;
     border-radius: 15px;
 }
+
 textarea{
     border-radius: 15px;
+    width: 500px;
+    height: 150px;
+    padding: .2rem .5rem;
+    border: none;
+    outline: none;
+    font-size: 15px;
 }
 
 .div-btn {
@@ -131,6 +144,91 @@ textarea{
     cursor: pointer;
     color: #3ab4ae;
 }
+
+
+/*---------------------------*/
+
+label {
+    margin-bottom: .2rem;
+    position: relative;
+}
+
+label:not(:first-of-type){
+    margin-top: 1rem;
+}
+
+.helper-text {
+    display: none;
+    font-size: .8rem;
+    color: darkred;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    align-self: center;
+}
+
+/* ---------- Estilos dinâmicos ---------- */
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #B6AF75;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #394A20;
+}
+
+input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+}
+
+input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+}
+
+textarea.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+}
+
+textarea.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+}
+
+.visible {
+    display: block;
+}
+
+
+/*-----------------------------*/
+
+.info {
+    display: flexbox;
+    align-content: center;
+    text-align: center;
+    width: 900px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+
 
 .copyright {
     background-color: #DCD7D1;

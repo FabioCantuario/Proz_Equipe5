@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+CO:wght@100..400&family=Poetsen+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/cabecalho_rodape.css">
     <link rel="stylesheet" href="./style/sobre-nos.css">
+    <script src="./script/script.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -51,7 +52,7 @@
             <div class="img-container">
                 <img class="img-sobre" src="./img/banner/bannersobre-nos.png" alt="sobre">
             </div>
-            <div class="div-nossos_valores">
+            <article class="nossos_valores">
                 <div>
                     <h1>Nossos valores</h1>
                 </div>
@@ -75,58 +76,58 @@
                         </div>
                     </div>
                 </section>
-            </div>
-            <div class="div-nossa_historia">
+            </article>
+            <article class="nossa_historia">
                 <h2>Nossa história</h2>
-                <article class="texto">
+                <section class="texto">
                     <p>Desde a sua fundação em 2020, o Instituto REcomeçar tem sido um pilar de apoio e transformação em nossa comunidade. Começamos com um pequeno grupo de voluntários dedicados, unidos pela missão de promover justiça social, empoderar mulheres e proteger animais. Ao longo dos anos, crescemos e expandimos nossos projetos, impactando positivamente inúmeras vidas.</p>
-                </article>                
-            </div>
+                </section>                
+            </article>
 
-            <div class="div-nossa_equipe">
+            <article class="nossa_equipe">
                 <h2>Nossa equipe</h2>
-                <article class="texto">
+                <div class="texto">
                     <p>Nossa equipe é formada por cinco membros que viram a necessidade de ajudar pessoas e animais em situação de vulnerabilidade, além de centenas de voluntários em todo o Brasil.</p>
-                </article>
-                
-                <div class="div-membrosequipe">
-                    <div class="perfil1">
-                        <a href="https://github.com/adenilsoon" target="_blank">
-                            <img src="./equipe/adenilson.png" class="perfil" alt="Imagem de membro da equipe">
-                        </a>
-                        <h3>Adenilson</h3>
-                    </div>
-
-                    <div class="perfil2">
-                        <a href="link para o perfil do GitHub" target="_blank">
-                            <img src="./equipe/ariadny.png" class="perfil" alt="Imagem de membro da equipe">
-                        </a>
-                        <h3>Ariadny</h3>
-                    </div>
-
-                    <div class="perfil3">
-                        <a href="link para o perfil do GitHub" target="_blank">
-                            <img src="./equipe/bernardo.png" class="perfil" alt="Imagem de membro da equipe">
-                        </a>
-                        <h3>Bernardo</h3>
-                    </div>
-
-                    <div class="perfil4">
-                        <a href="https://github.com/FabioCantuario" target="_blank">
-                            <img src="./equipe/fabio.png" class="perfil" alt="Imagem de membro da equipe">
-                        </a>       
-                        <h3>Fábio</h3>
-                    </div>
-
-                    <div class="perfil5">
-                        <a href="https://github.com/filledeoya9" target="_blank">
-                            <img src="./equipe/juliana.png" class="perfil" alt="Imagem de membro da equipe">
-                        </a>
-                        <h3>Júliana</h3>
-                    </div>
-
                 </div>
-            </div>
+                
+                <section class="membrosequipe">
+                    <div class="perfilEquipe">
+                        <a href="https://github.com/adenilsoon" target="_blank">
+                            <img src="./equipe/adenilson.png" id="perfil1" class="perfil" alt="Imagem de membro da equipe">
+                        </a>
+                        <h3 id="nome_perfil1">Adenilson</h3>
+                    </div>
+
+                    <div class="perfilEquipe">
+                        <a href="link para o perfil do GitHub" target="_blank">
+                            <img src="./equipe/ariadny.png" id="perfil2" class="perfil" alt="Imagem de membro da equipe">
+                        </a>
+                        <h3 id="nome_perfil2">Ariadny</h3>
+                    </div>
+
+                    <div class="perfilEquipe">
+                        <a href="link para o perfil do GitHub" target="_blank">
+                            <img src="./equipe/bernardo.png" id="perfil3" class="perfil" alt="Imagem de membro da equipe">
+                        </a>
+                        <h3 id="nome_perfil3">Bernardo</h3>
+                    </div>
+
+                    <div class="perfilEquipe">
+                        <a href="https://github.com/FabioCantuario" target="_blank">
+                            <img src="./equipe/fabio.png" id="perfil4" class="perfil" alt="Imagem de membro da equipe">
+                        </a>       
+                        <h3 id="nome_perfil4">Fábio</h3>
+                    </div>
+
+                    <div class="perfilEquipe">
+                        <a href="https://github.com/filledeoya9" target="_blank">
+                            <img src="./equipe/juliana.png" id="perfil5" class="perfil" alt="Imagem de membro da equipe">
+                        </a>
+                        <h3 id="nome_perfil5">Júliana</h3>
+                    </div>
+
+                </section>
+            </article>
         </div>
 
         <br> 
