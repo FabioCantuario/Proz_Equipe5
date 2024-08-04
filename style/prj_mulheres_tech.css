@@ -1,5 +1,5 @@
 body {
-    background-color: #DCD7D1;
+    background-color: #ffffff;
 }
 
 .conteudo {
@@ -7,19 +7,45 @@ body {
 }
 
 .image-container {
-    display: flex;
-    justify-content:center;
-    align-items: center;
     margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: auto;
     width: auto;
 }
 
 .img-topo-tech {
-    /*max-width: 100;*/
-    height: 390px;
-    width: 1360px;
-    /*width: auto;*/
+    max-width: 100%;
     min-width: 50%;
-    object-fit: fill;   
+    width: 100%;
+    height: 100%;   
+}
+
+.conteudo {
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+.info-projeto {
+    margin: 100px;
+    margin-top: 80px;
+}
+
+.imagens-selos {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 70px;
+}
+
+.imagens-selos img {
+    width: 30%;
+    height: 15%;
+}
+
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-optical-sizing: auto;
+    color: #B43A75;
 }

@@ -1,8 +1,37 @@
-body {
+/*body {
   background-color: #DCD7D1;
 
+}*/
+
+* {
+  /*font-family: "Montserrat", sans-serif;*/
+  font-family: "Poetsen One", sans-serif;
+  font-optical-sizing: auto;
 }
 
+.conteudo {
+  margin-bottom: -55px;
+  background-color: #DCD7D1;
+}
+
+.img-container {
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-topo-pet {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+ /* padding-top: 1%;
+  display: block;
+  max-width: 100%;*/
+}
+
+/*--------------*/
+/*
 .image-container {
   display: flex;
   justify-content: center;
@@ -23,7 +52,7 @@ ul {
   margin: 40px;
   font-family: "Poetsen One", sans-serif;
 }
-
+*/
 
 h1 {
   color: #B43A75;
@@ -105,6 +134,10 @@ h2 {
   margin-bottom: 0px;
 }
 
-.content-grids {
+/*.content-grids {
   height: 200px;
+}*/
+
+.copyright {
+  background-color: #DCD7D1;
 }

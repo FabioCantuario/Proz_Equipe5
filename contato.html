@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instituto Recomeçar</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CO:wght@100..400&family=Poetsen+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/cabecalho_rodape.css">
     <link rel="stylesheet" href="./style/contato.css">
+    <script src="./script/contato.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -56,38 +53,38 @@
             <div class="image-container">
                 <img id="img-topo" class="img-topo-contato" src="./img/banner/contato.png" alt="imagem da página contato">
             </div>
-            <div class="titulo">
+            <article class="titulo">
                 <h1>Fale Conosco</h1>
-                <p>Para dúvidas sobre nosso instituto ou se deseja colaborar em algum de nossos projetos,preencha o formulário abaixo que retornaremos o mais rápido possível.</p>
-            </div>
-            <div class="div-form">
+                <p>Para dúvidas sobre nosso instituto ou se deseja colaborar em algum de nossos projetos, preencha o formulário abaixo que retornaremos o mais rápido possível.</p>
+            </article>
+            <section class="div-form">
                 <form action="" method="post">
-                    <div class="div-corpo">
-                        <label for="assunto">Assunto:</label>
-                        <br>
+                   <!-- <div class="div-corpo"> -->
+                        <label for="assunto">*Assunto:</label>
                         <input type="text" name="assunto" id="assunto" placeholder="Digite o assunto">
-                        <br><br>
-                        <label for="nome">Nome:</label>
-                        <br>
+                        <p id="assunto-helper" class="helper-text">Mensagem de ajuda</p>
+                        
+                        <label for="nome">*Nome:</label>
                         <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
-                        <br><br>
-                        <label for="mail">E-mail:</label>
-                        <br>
-                        <input type="email" name="mail" id="mail" placeholder="Digite seu e-mail">
-                        <br><br>
-                        <label for="mensagem">Mensagem:</label>
-                        <br>
+                        <p id="name-helper" class="helper-text">Mensagem de ajuda</p>
+                        
+                        <label for="email">*E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                        <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+                        
+                        <label for="mensagem">*Mensagem:</label>
                         <textarea cols="53" rows="5" name="mensagem" id="mensagem" placeholder="  Digite sua mensagem..."></textarea>
-                        <br><br>
-                    </div>
-                    <div class="div-btn">
+                        <p id="mensagem-helper" class="helper-text">Mensagem de ajuda</p>
+                        
+                    <!--</div>-->
+                    <!--<div class="div-btn">-->
                         <button class="btn-enviar" type="submit">ENVIAR MENSAGEM</button>
-                    </div>
+                    <!--</div>-->
                 </form>
-            </div>
-            <div class="info">
-                <p>Se preferir, você pode entrar em contato conosco também pelo telefone <strong>0800-100-4510</strong> apenas em dias úteis no período das 8h00 às 17h00 (Horário de Brasília).</p>
-            </div>
+            </section>
+            <article class="info">
+                <p>Se preferir, você pode entrar em contato conosco também pelo telefone <strong>0800-100-4510</strong> apenas em dias úteis no período das <i>8h00 às 17h00 (Horário de Brasília)</i>.</p>
+            </article>
         </div>
     </main>
 

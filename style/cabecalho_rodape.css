@@ -2,6 +2,11 @@
     margin: 0;
     left: 0;
 }
+
+header {
+    margin: 0px;
+    padding: 0px;
+}
 /* Logotipo e Menu de Navegação */
 .img-logo {
     width: 250px;
@@ -17,7 +22,8 @@
     align-items:center;
     text-align: center;
     position: relative;
-    padding-left: 70px;
+    padding-left: 50px;
+    /*padding-left: 70px;*/
 }
 
 .dropdown-toggle, .dropdown-menu, .dropdown-item {
@@ -31,6 +37,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 #menu-principal a {
