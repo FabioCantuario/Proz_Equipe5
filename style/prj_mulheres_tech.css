@@ -19,6 +19,33 @@ body {
     max-width: 100%;
     min-width: 50%;
     width: 100%;
-    height: 100%;
-    object-fit: fill;   
+    height: 100%;   
+}
+
+.conteudo {
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+.info-projeto {
+    margin: 100px;
+    margin-top: 80px;
+}
+
+.imagens-selos {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 70px;
+}
+
+.imagens-selos img {
+    width: 30%;
+    height: 15%;
+}
+
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-optical-sizing: auto;
+    color: #B43A75;
 }
