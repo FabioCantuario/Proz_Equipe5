@@ -95,7 +95,7 @@ h2 {
   width: calc(100% / 3 - 60px);
   margin: 20px;
   padding: 20px;
-  gap: 10px;
+  /* gap: 10px; */
   box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   background-color: white;
