@@ -134,6 +134,10 @@ h2 {
   margin-bottom: 0px;
 }
 
-.content-grids {
+/*.content-grids {
   height: 200px;
+}*/
+
+.copyright {
+  background-color: #DCD7D1;
 }
