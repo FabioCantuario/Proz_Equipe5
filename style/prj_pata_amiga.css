@@ -1,36 +1,8 @@
-/*#B6AF75; - prata*/
-/*#394A20; - verde */
-/*#B43A75; - rosa */
-
-* {
-  font-family: "Poetsen One", sans-serif;
-  font-optical-sizing: auto;
-}
-
 body {
   background-color: #DCD7D1;
+
 }
 
-.conteudo {
-  margin-bottom: -55px;
-  background-color: #ffffff;
-}
-
-.img-container {
-  margin-top: -15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.img-topo-pet {
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-}
-
-/*--------------*/
-/*
 .image-container {
   display: flex;
   justify-content: center;
@@ -43,7 +15,7 @@ body {
 .img-topo-pet {
   height: 400px;
   width: 100%;
-
+  object-fit: cover;
 }
 
 ul {
@@ -51,7 +23,11 @@ ul {
   margin: 40px;
   font-family: "Poetsen One", sans-serif;
 }
-*/
+
+.conteudo {
+  padding: 0;
+  min-height: auto;
+}
 
 h1 {
   color: #B43A75;
@@ -62,11 +38,17 @@ h1 {
   margin: 40px;
 }
 
+h2 {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 60px;
+}
+
 p {
   text-align: justify;
   font-style: normal;
   font-size: 20px;
   margin: 40px;
+  width: 1800px;
 }
 
 .texto p strong {
@@ -113,6 +95,7 @@ h2 {
   width: calc(100% / 3 - 60px);
   margin: 20px;
   padding: 20px;
+  /* gap: 10px; */
   box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   background-color: white;
@@ -135,8 +118,4 @@ h2 {
 
 .content-grids {
   height: 200px;
-}
-
-.copyright {
-  background-color: #DCD7D1;
 }
