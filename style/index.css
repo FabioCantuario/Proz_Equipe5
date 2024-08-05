@@ -1,27 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*#B6AF75; - prata*/
+/*#394A20; - verde */
+/*#B43A75; - rosa */
+
 * {
+    /*font-family: "Montserrat", sans-serif;*/
+    font-family: "Poetsen One", sans-serif;
+    font-optical-sizing: auto;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #ffffff;
-}
-
-.dropdown-menu {
-    width: 200px;
-    margin-bottom: 0 auto;
-}
-
 .conteudo {
     display: block;
-}
-
-.container-slogan {
     margin-bottom: -55px;
+    background-color: #DCD7D1;
 }
 
+body {
+    background-color: #DCD7D1;
+}
+
+.img-container {
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.img-topo-home {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*-----------------*/
+/* 
 .image-container {
     margin-top: 0px;
     display: flex;
@@ -37,6 +52,32 @@ body {
     min-width: 50%;
     padding-top: 1%;
     display: block;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.conteudo {
+    display: block;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+*/
+
+
+
+.dropdown-menu {
+    width: 200px;
+    margin-bottom: 0 auto;
+}
+
+.container-slogan {
+    margin-bottom: -55px;
 }
 
 .frase-container {
@@ -158,4 +199,8 @@ body {
     width: 170px;
     height: 170px;
     border-radius: 50%;
+}
+
+.copyright {
+    background-color: #DCD7D1;
 }

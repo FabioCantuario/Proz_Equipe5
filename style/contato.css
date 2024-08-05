@@ -24,9 +24,6 @@
     height: 400px;
     width: 100%;
     object-fit: cover;
-   /* padding-top: 1%;
-    display: block;
-    max-width: 100%;*/
 }
 
 
@@ -34,7 +31,6 @@
 .titulo h1 {
     color: #B43A75;
     text-align: justify;
-    /*font-family: "Poetsen One", sans-serif;*/
     font-size: 60px;
     padding: 10px;
     margin: 40px;
@@ -42,7 +38,6 @@
 
 .titulo p {
     color: #394A20;
-    /*font-family: "Poetsen One", sans-serif;*/
     font-style: normal;
     font-size: 20px;
     margin: 40px;
@@ -50,7 +45,6 @@
 
 .info p {
     color: #394A20;
-    /*font-family: "Poetsen One", sans-serif;*/
     font-style: normal;
     font-size: 18px;
     margin: 40px;
@@ -58,14 +52,12 @@
 
 .info strong {
     color:  #B43A75;
-    /*font-family: "Poetsen One", sans-serif;*/
     font-style: normal;
     font-size: 20px; 
 }
 
 .info i {
     color:  #B43A75;
-    /*font-family: "Poetsen One", sans-serif;*/
     font-style: normal;
     font-size: 18px; 
 }
@@ -76,7 +68,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /*background-color: #B6AF75;*/
   }
   
   form {
@@ -121,7 +112,6 @@
 input{
     width: 500px;
     height: 50px;
-    /*padding: 15px;*/
     padding: .2rem .5rem;
     border: none;
     outline: none;
@@ -153,7 +143,6 @@ textarea{
     height: 60px;
     border: none;
     border-radius: 10px;
-    /*padding-top: 0px;*/
     padding-bottom: 0px;
     margin-top: 0px;
 
@@ -187,14 +176,6 @@ label:not(:first-of-type){
     font-size: .8rem;
     color: darkred;
 }
-
-/*button {
-    width: 100px;
-    height: 40px;
-    margin-top: 1.5rem;
-    font-size: 1rem;
-    align-self: center;
-}*/
 
 /* ---------- Estilos dinâmicos ---------- */
 .required-popup::after {
@@ -252,8 +233,6 @@ textarea.correct {
     margin-left: 150px;
     margin-right: 100px;
 }
-
-
 
 .copyright {
     background-color: #DCD7D1;
