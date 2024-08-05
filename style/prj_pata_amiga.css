@@ -1,16 +1,14 @@
-/*body {
-  background-color: #DCD7D1;
-
-}*/
+/*#B6AF75; - prata*/
+/*#394A20; - verde */
+/*#B43A75; - rosa */
 
 * {
-  /*font-family: "Montserrat", sans-serif;*/
   font-family: "Poetsen One", sans-serif;
   font-optical-sizing: auto;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #DCD7D1;
 }
 
 .conteudo {
@@ -29,9 +27,6 @@ body {
   height: 400px;
   width: 100%;
   object-fit: cover;
- /* padding-top: 1%;
-  display: block;
-  max-width: 100%;*/
 }
 
 /*--------------*/
@@ -116,7 +111,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   width: calc(100% / 3 - 60px);
-  margin: 10px;
+  margin: 20px;
   padding: 20px;
   box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
@@ -138,9 +133,9 @@ h2 {
   margin-bottom: 0px;
 }
 
-/*.content-grids {
+.content-grids {
   height: 200px;
-}*/
+}
 
 .copyright {
   background-color: #DCD7D1;
