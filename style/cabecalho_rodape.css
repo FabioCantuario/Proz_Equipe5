@@ -6,6 +6,8 @@
 header {
     margin: 0px;
     padding: 0px;
+    font-family: "Poetsen One", sans-serif;
+    font-optical-sizing: auto;
 }
 
 /* Logotipo e Menu de Navegação */
@@ -143,4 +145,9 @@ h6 {
     text-align: center;
     /*font-weight: bold;*/
     padding: 15px;
+}
+
+footer h3 {
+    font-family: "Poetsen One", sans-serif;
+    font-optical-sizing: auto;
 }
