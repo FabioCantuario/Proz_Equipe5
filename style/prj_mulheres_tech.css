@@ -24,17 +24,25 @@ body {
 
 .conteudo {
     display: block;
-    justify-content: center;
     align-content: center;
 }
 .info-projeto {
     margin: 100px;
     margin-top: 80px;
+    text-align: justify;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.objetivos-projeto {
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .imagens-selos {
     display: flex;
     margin-top: 30px;
+    margin-bottom: 30px;
     justify-content: center;
     gap: 70px;
 }
@@ -44,8 +52,15 @@ body {
     height: 15%;
 }
 
-h1 {
+h1, h2 {
     font-family: "Poetsen One", sans-serif;
     font-optical-sizing: auto;
+    color: #B43A75;
+}
+
+.texto-chamadaacao a {
+    display: inline-block;
+    text-decoration: solid;
+    font-weight: bold;
     color: #B43A75;
 }
