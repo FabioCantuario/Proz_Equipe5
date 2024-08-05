@@ -1,3 +1,43 @@
+<<<<<<< Updated upstream
+=======
+/*#B6AF75; - prata*/
+/*#394A20; - verde */
+/*#B43A75; - rosa */
+
+* {
+    font-family: "Poetsen One", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.conteudo {
+    margin-bottom: -55px;
+    background-color: #ffffff;
+}
+
+/* Configuração do Container da Imagem Banner */
+
+.img-container {
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.img-topo-empreende {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/*---------------------*/
+/*
+>>>>>>> Stashed changes
 body {
     background-color: #ffffff;
 }

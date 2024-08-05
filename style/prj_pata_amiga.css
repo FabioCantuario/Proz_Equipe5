@@ -9,6 +9,10 @@
   font-optical-sizing: auto;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 .conteudo {
   margin-bottom: -55px;
   background-color: #ffffff;
