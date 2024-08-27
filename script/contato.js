@@ -12,9 +12,9 @@ let userEmailInput = document.getElementById("email");
 let userEmailLabel = document.querySelector("label[for='email']");
 let userEmailHelper = document.getElementById("email-helper");
 
-let messageTextArea = document.getElementById("mensagem");
-let messageLabel = document.querySelector("label[for='mensagem']");
-let messageHelper = document.getElementById("mensagem-helper");
+
+//desabilita o botão no início
+document.getElementById("botao").disabled = true;
 
 // Mostrar popup de campo obrigatório
 function mostrarPopUp(input, label){
@@ -27,20 +27,9 @@ function mostrarPopUp(input, label){
     })    
 }
 
-function mostrarPopUp1(textarea, label){
-    textarea.addEventListener("focus", (e) => {
-        label.classList.add("required-popup")
-    })
-    
-    textarea.addEventListener("blur", ()=> {
-        label.classList.remove("required-popup")
-    })    
-}
-
-mostrarPopUp(assuntoInput, assuntoLabel)
-mostrarPopUp(usernameInput, usernameLabel)
-mostrarPopUp(userEmailInput, userEmailLabel)
-mostrarPopUp1(messageTextArea, messageLabel)
+mostrarPopUp(assuntoInput, assuntoLabel);
+mostrarPopUp(usernameInput, usernameLabel);
+mostrarPopUp(userEmailInput, userEmailLabel);
 
 
 // Validar valor do input
@@ -104,35 +93,14 @@ userEmailInput.addEventListener("input", (event) => {
     if(regex.test(valor)){
         userEmailInput.classList.remove("error");
         userEmailHelper.classList.remove("visible");
-        userEmailInput.classList.add("correct")
+        userEmailInput.classList.add("correct");
+        //habilita o botão
+        document.getElementById("botao").disabled = false;
     } else {
         userEmailInput.classList.remove("correct");
         userEmailInput.classList.add("error");
         userEmailHelper.innerText = "E-mail inválido"
         userEmailHelper.classList.add("visible");
+        //desabilita o botão se o conteúdo do input ficar em branco
+        document.getElementById("botao").disabled = true;
 }})
-
-//adicionamos um evento do tipo input ao input da mensagem e definimos um pararametro para capturar o evento
-messageTextArea.addEventListener("textarea", (e) => {
-    //capturamos o valor do ipt através do value e salvamos na variavel valorIpt
-    let valorTextArea = e.target.value
-    //condicional que verifica se a quantidade de caracteres digitados no input é maior que 20
-    if(valorTextArea.length < 20 ){
-        //sendo menos que 20 nos removemos a classe(css) correct do elemento input do mensagem
-        messageTextArea.classList.remove("correct");
-        //adicionamos a classe error ao input do message
-        messageTextArea.classList.add("error");
-        //alteramos o texto do elemento <p> atraves da propriedade innertext
-        messageHelper.innerText = "Sua mensagem deve conter mais de 20 caracters"
-        //adicionamos a classe visible ao elemento <p> fazendo a mensagem de ajuda aparecer ao assunto
-        messageHelper.classList.add("visible");
-        //se a quantidade de caracters digitados no input for maior que 20 vai para o else
-    } else {
-        //removemos a classe error do elemento messageInput
-        messageTextArea.classList.remove("error");
-        //adicionamos a classe correct ao elemento messageInput
-        messageTextArea.classList.add("correct");
-        //removemos a classe visible do elemento messageHelper
-        messageHelper.classList.remove("visible")
-    }
-})
