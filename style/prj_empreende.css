@@ -4,6 +4,7 @@ body {
 
 .conteudo {
     margin-bottom: -55px;
+    margin: 100px;
 }
 
 .image-container {
@@ -25,26 +26,22 @@ h1 {
     color: #B43A75;
     text-align: justify;
     font-family: "Poetsen One", sans-serif;
-    font-size: 60px;
-    padding: 10px;
-    margin: 40px;
+    font-size: 50px;
 }
 
 h2 {
     color: #B43A75;
     text-align: justify;
     font-family: "Poetsen One", sans-serif;
-    font-size: 60px;
-    padding: 10px;
-    margin: 40px;
+    font-size: 50px;
 }
 
 .texto p {
+    margin-top: 30px;
     text-align: justify;
     font-style: normal;
-    font-size: 20px;
-    margin: 40px;
-    width: 1800px;
+    font-size: 18px;
+    color: #394A20;
 }
 
 .image-ods {
@@ -53,3 +50,99 @@ h2 {
     margin: 20px;
     gap: 30px;
 }
+
+/** Div parceiros
+
+.div-dividido {
+    display: flex;
+    padding-top: 20px;
+}
+
+
+.div-catalyst {
+    height: auto;
+}
+
+
+.div-igualdade {
+    height: auto;
+    padding-top: 30px;
+}
+
+
+.div-texto {
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 90px;
+}
+
+
+/*---*/
+.parceiro-div {
+    margin-top: -80px;
+    background-color: #394A20;
+    height: 330px;
+    padding-bottom: 100px;
+}
+
+
+.parc-h h2 {
+    color: #DCD7D1;
+    text-align: center;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+
+.secao4 {
+    width: auto;
+    margin: 10px;
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.secao4-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.secao4-div-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3 - 60px);
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: white;
+    transition: all 0.5s ease;
+    justify-content: center;
+}
+
+
+.secao4-div-card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+
+.secao4-div-card img {
+    width: 35%;
+    height: auto;
+}
+
+
+
+
+
+
+

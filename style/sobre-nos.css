@@ -1,17 +1,15 @@
-* {
-    /*font-family: "Montserrat", sans-serif;*/
-    font-family: "Poetsen One", sans-serif;
-    font-optical-sizing: auto;
-}
-
 body {
     background-color: #DCD7D1;
+}
+
+.conteudo {
+    margin: 100px;
 }
 
 /* Configuração do Container da Imagem Banner */
 
 .img-container {
-    margin-top: -15px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,9 +32,7 @@ body {
     color: #B43A75;
     text-align: justify;
     font-family: "Poetsen One", sans-serif;
-    font-size: 60px;
-    padding: 10px;
-    margin: 40px;
+    font-size: 50px;
 }
 
 .nossa_equipe h2 {
@@ -44,8 +40,6 @@ body {
     text-align: justify;
     font-family: "Poetsen One", sans-serif;
     font-size: 50px;
-    padding: 10px;
-    margin: 40px;
 }
 
 .nossa_historia h2 {
@@ -53,8 +47,6 @@ body {
     text-align: justify;
     font-family: "Poetsen One", sans-serif;
     font-size: 50px;
-    padding: 10px;
-    margin: 40px;
 }
 
 #texto {
@@ -69,7 +61,7 @@ body {
 
 .nossos_valores p {
     color: #394A20;
-    font-family: "Poetsen One", sans-serif;
+    font-family: Helvetica, sans-serif;
     font-style: normal;
     font-size: 20px;
     margin: 40px;
@@ -78,25 +70,27 @@ body {
 .nossa_historia p {
     color: #394A20;
     text-align: justify;
-    font-family: "Poetsen One", sans-serif;
+    font-family: Helvetica, sans-serif;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     margin: 40px;
+    margin-left: 0px;
 }
 
 .nossa_equipe p {
     text-align: justify;
-    font-family: "Poetsen One", sans-serif;
+    font-family: Helvetica, sans-serif;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     margin: 40px;
+    margin-left: 0px;
     color: #394A20;
 }
 
 /* Configuração do formato das imagens da Equipe */
 .membrosequipe {
     margin-top: 30px;
-    margin-bottom: -10px;
+    margin-bottom: -80px;
     justify-content: center; 
     display: flex;
     gap: 95px;
@@ -138,6 +132,7 @@ body {
     justify-content: center;
     /*padding: 20px;*/
     text-align: center;
+    font-family: Helvetica, sans-serif;
 }
 
 .secao4-div-card {

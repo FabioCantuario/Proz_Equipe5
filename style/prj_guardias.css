@@ -4,30 +4,24 @@
 
 
 /* ajustar texto da página semelhante ao layout*/
-* {
-    /*font-family: "Montserrat", sans-serif;*/
-    font-family: "Poetsen One", sans-serif;
-    font-optical-sizing: auto;
-}
 
 
 body {
     background-color: #DCD7D1;
-    margin: 0px;
 }
 
 
 .conteudo {
     margin-bottom: -55px;
     align-items: center;
-    margin:0 auto;
+    margin: 100px;
+    font-size: 18px;
 }
 
 
 section {   /*centraliza conteúdo da section*/
-    width: 1000px;
-    margin: 0 auto;
-  }
+    width: 100%;
+}
 
 
 .image-container {
@@ -49,28 +43,37 @@ section {   /*centraliza conteúdo da section*/
     object-fit: fill;
 }
 
-
 h1, h2 {
     color: #B43A75;
     text-align: justify;
+    font-size: 50px;
     font-family:"Poetsen One", sans-serif;
-    padding: 10px;
 }
 
 
 .texto p {
     color: #394A20;
+    margin-top: 30px;
 }
 .div-texto{
     color: #394A20;
+    font-size: 18px;
 }
 
+.texto-chamadaacao {
+    margin-top: 40px;
+    margin-bottom: -40px;
+    text-align: center;
+    color: #394A20;
+}
 
-
-
-
-
-
+.texto-chamadaacao a {
+    display: inline-block;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 18px;
+    color: #B43A75;
+}
 
 /*-----*/
 
@@ -83,22 +86,16 @@ h1, h2 {
 
 .div-catalyst {
     height: auto;
-    padding-bottom: 20px;
-    padding-left: 10px;
 }
 
 
 .div-igualdade {
-    width: 3px;
     height: auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 10px;
+    padding-top: 30px;
 }
 
 
 .div-texto {
-    width: 800px;
     text-align: justify;
     margin-left: 80px;
     margin-right: 90px;
@@ -107,8 +104,10 @@ h1, h2 {
 
 /*---*/
 .parceiro-div {
+    margin-top: -80px;
     background-color: #394A20;
-    height: 280px;
+    height: 330px;
+    padding-bottom: 100px;
 }
 
 
@@ -120,20 +119,9 @@ h1, h2 {
 }
 
 
-/*----*/
-
-
-/* .parceiro-div {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-} */
-
-
 .secao4 {
     width: auto;
-    margin: 0;
+    margin: 10px;
     font-family: Helvetica, sans-serif;
     justify-content: center;
     text-align: center;
@@ -176,10 +164,3 @@ h1, h2 {
     width: 35%;
     height: auto;
 }
-
-
-
-
-
-
-

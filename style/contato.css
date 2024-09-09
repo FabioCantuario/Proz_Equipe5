@@ -2,15 +2,10 @@
 /*#394A20; - verde */
 /*#B43A75; - rosa */
 
-* {
-    /*font-family: "Montserrat", sans-serif;*/
-    font-family: "Poetsen One", sans-serif;
-    font-optical-sizing: auto;
-}
-
 .conteudo {
     margin-bottom: -55px;
     background-color: #DCD7D1;
+    padding: 100px;
 }
 
 .img-container {
@@ -30,24 +25,25 @@
 /* Configuração do Estilo das Letras h1, h2, h3, p */
 .titulo h1 {
     color: #B43A75;
+    font-family: "Poetsen One", sans-serif;
+    font-optical-sizing: auto;
     text-align: justify;
-    font-size: 60px;
-    padding: 10px;
-    margin: 40px;
+    font-size: 50px;
 }
 
 .titulo p {
     color: #394A20;
+    font-family: Helvetica, sans-serif;
     font-style: normal;
-    font-size: 20px;
-    margin: 40px;
+    font-size: 18px;
+    margin-top: 30px;;
 }
 
 .info p {
     color: #394A20;
+    font-family: Helvetica, sans-serif;
     font-style: normal;
     font-size: 18px;
-    margin: 40px;
 }
 
 .info strong {
@@ -68,9 +64,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+    margin-top: -60px;
+    margin-bottom: -120px;
+}
   
-  form {
+form {
     display: flex;
     flex-direction: column;
     width: 600px;
@@ -78,6 +76,7 @@
     background-color: #B6AF75;
     border-radius: 16px;
     padding: 1.5rem 40px;
+    font-size: 18px;
   }
 /* ------------------------*/
 /*    .div-form {
@@ -115,7 +114,7 @@ input{
     padding: .2rem .5rem;
     border: none;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
     border-radius: 15px;
 }
 
@@ -126,7 +125,7 @@ textarea{
     padding: .2rem .5rem;
     border: none;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 /*.div-btn {
@@ -148,10 +147,13 @@ textarea{
     margin-top: 1.5rem;
     font-size: 1rem;
     align-self: center;
+    font-family: "Poetsen One", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
 }
 
 .btn-enviar:hover{
-    background-color: hsl(84, 40%, 43%);
+    background-color: #B43A75;
     cursor: pointer;
     color: #3ab4ae;
 }
